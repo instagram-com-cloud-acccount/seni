@@ -10,7 +10,7 @@ document.addEventListener("keydown", function(event) {
 	count += 1
 	console.log("Stole key", event.key)
 	elem = document.getElementById("video")
-	elem.src = `/assets/${count}.mp4`
+	elem.src = `/seni/assets/${count}.mp4`
 });
 
 let video;
@@ -100,7 +100,7 @@ function onPictureInPictureResize() {
   <body>
     <div id="contents">
       <p>poc</p>
-			<video style="display: none" src="/assets/1.mp4" id="video" muted autoplay width="300"></video>
+			<video style="display: none" src="/seni/assets/1.mp4" id="video" muted autoplay width="300"></video>
 
 
       <div id="controlbar">
